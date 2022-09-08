@@ -68,6 +68,11 @@ const Home: NextPage = () => {
       <div className="home">
         <h1>Time left to KYFFE:</h1>
         <h2>{timeLeft}</h2>
+        <a className="link" href="/kyffe.png" target="_blank">
+          Background image by DALL·E 2022-09-08 09.29.42 - Two unicorns, one of
+          them wearing glasses, drinking coffee in a small house on the country
+          side, oil painting
+        </a>
       </div>
     </div>
   )

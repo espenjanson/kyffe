@@ -13,6 +13,18 @@ body {
   text-align: center;
 }
 
+a {
+  color: #fff;
+}
+
+.link {
+  position: fixed;
+  bottom: 30px;
+  max-width: 67%;
+  text-shadow: -1px -1px 0 #ffff00, 1px -1px 0 #ff0000, -1px 1px 0 #ff0000,
+    1px 1px 0 #ff0000;
+}
+
 .home {
   width: 100vw;
   height: 100vh;
@@ -24,9 +36,11 @@ body {
 
 h1 {
   display: block;
+  text-shadow: 2px 2px #000;
 }
 h2 {
   display: block;
+  text-shadow: 2px 2px #000;
 }
 
 * {
