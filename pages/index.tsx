@@ -2,6 +2,7 @@ import type { NextPage } from "next"
 import Head from "next/head"
 import Image from "next/image"
 import { useEffect, useState } from "react"
+import styles from "../styles/globals.module.css"
 
 function getTrailingZero(num: number) {
   const numString = num.toString()
@@ -17,7 +18,7 @@ const Home: NextPage = () => {
     const interval = setInterval(() => {
       const theDate = new Date()
       theDate.setMonth(9)
-      theDate.setDate(1)
+      theDate.setDate(3)
       theDate.setHours(9)
       theDate.setMinutes(0)
       theDate.setSeconds(0)
